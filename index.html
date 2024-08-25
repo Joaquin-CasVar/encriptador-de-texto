@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header></header>
+    <main class="encrypt">
+        <img class="logo" src="assets/logo.png" alt="Logo de Alura">
+        <section class="input">
+            <textarea class="input__texto" placeholder="Ingrese el texto aqui" spellcheck="false"></textarea>
+            <div class="input__info">
+                <img class="input__info__image" src="assets/exclamation_sign.png" alt="Signo de exclamación">
+                <p class="input__info__text">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="input__button">
+                <button class="input__button__encrypt">Encriptar</button>
+                <button class="input__button__decrypt">Desencriptar</button>
+            </div>
+        </section>
+        <div class="output">
+            <div class="output__placeholder">
+                <img class="output__placeholder__img" src="assets/person.png" alt="Imagen de una persona mirando con una lupa">
+                <h4 class="output__placeholder__title">Ningún mensaje fue encontrado</h4>
+                <p class="output__placeholder__text">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <!-- <textarea class="output__text" readonly spellcheck="false" placeholder=""></textarea> -->
+            <!-- <button class="output__button">Copiar</button> -->
+        </div>
+    </main>
+    <footer>
+        <p class="footer">Desarrollado por Joaquin Castellano</p>
+    </footer>
+</body>
+</html>
