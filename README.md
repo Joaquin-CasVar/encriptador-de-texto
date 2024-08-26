@@ -1,11 +1,9 @@
 <h1>Challenge Encriptador de Texto</h1>
 
-<h3 align="center">:construction: Proyecto en construcción :construction:</h4>
-
 <h4>¡Bienvenido!</h4>
 <p>En este proyecto podras utilizar una pagina web para encriptar y desencriptar texto.</p>
-<p>Puedes ingresar todo lo que se te ocurra para encriptarlo y, a su vez, desencriptar dicho texto.</p>
-<h4>¡Diviértete! 😉</h4>
+<p>Permite cualquier tipo de texto y una vez encriptado se lo puedes enviar a otra persona junto con la pagina y enviar un mensaje secreto</p>
+
 
 ## :hammer:Funcionalidades del proyecto
 
