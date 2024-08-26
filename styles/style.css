@@ -161,3 +161,46 @@ textarea {
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+@media (max-width: 1200px) {
+    .logo {
+        width: min-content;
+        
+    }
+
+    .encrypt {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .input {
+        width: auto;
+    }
+
+    .output {
+        width: auto;
+    }
+
+    .output__placeholder__img {
+        display: none;
+    }
+
+    .output__text {
+        height: 70vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .input__button {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .input__button__encrypt {
+        width: auto;
+    }
+    
+    .input__button__decrypt {
+        width: auto;
+    }
+}
