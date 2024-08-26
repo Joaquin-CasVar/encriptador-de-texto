@@ -18,22 +18,26 @@
                 <p class="input__info__text">Solo letras minúsculas y sin acentos</p>
             </div>
             <div class="input__button">
-                <button class="input__button__encrypt">Encriptar</button>
-                <button class="input__button__decrypt">Desencriptar</button>
+                <button class="input__button__encrypt" onclick="buttonEncriptar()">Encriptar</button>
+                <button class="input__button__decrypt" onclick="buttonDesencriptar()">Desencriptar</button>
             </div>
         </section>
         <div class="output">
-            <div class="output__placeholder">
+            <div class="output__placeholder" id="placeholder" style="display: block;">
                 <img class="output__placeholder__img" src="assets/person.png" alt="Imagen de una persona mirando con una lupa">
                 <h4 class="output__placeholder__title">Ningún mensaje fue encontrado</h4>
                 <p class="output__placeholder__text">Ingresa el texto que desees encriptar o desencriptar.</p>
             </div>
-            <!-- <textarea class="output__text" readonly spellcheck="false" placeholder=""></textarea> -->
-            <!-- <button class="output__button">Copiar</button> -->
+            <div class="output__result" style="display: none;">
+                <textarea class="output__text" readonly spellcheck="false"></textarea>
+                <button class="output__button" onclick="copiar()">Copiar</button>
+            </div>
         </div>
     </main>
     <footer>
         <p class="footer">Desarrollado por Joaquin Castellano</p>
     </footer>
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>
